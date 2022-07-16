@@ -9,8 +9,11 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color:  hsl(0, 0%, 95%);
 }
-
+h1 {
+    color:  hsl(0, 0%, 95%);
+}
 @media(min-width: 1000px) {
 .columns {
     display: grid;
@@ -59,19 +62,19 @@ body {
 }
 
 .button {
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 5em;
+    margin-bottom: 2em;
     display: inline-block;
     background-color: white;
     border-radius: 40px;
     padding: 13px 30px;
     cursor: pointer;
     transition: 250ms;
-    bottom: 15%;
     font-size: 13px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     border: 2px solid white;
+    color:  hsl(0, 0%, 95%);
 }
 
 .button1:hover {
